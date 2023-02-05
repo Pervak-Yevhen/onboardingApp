@@ -1,0 +1,31 @@
+.BooksList {
+    display: flex;
+    flex-direction: column;
+}
+
+.BooksList__navigation {
+    height: 25px;
+    display: flex;
+    gap: 10px;
+}
+
+.BooksList__list {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.BooksList__viewButton {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.BooksList__list--infinityScroll {
+    height: 500px;
+}
+
+.BooksList__list--infinityScroll .infinite-scroll-component {
+    display: flex;
+    flex-wrap: wrap;
+}

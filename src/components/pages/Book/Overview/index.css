@@ -1,0 +1,9 @@
+.BookOverview {
+    display: flex;
+    flex-direction: column;
+    gap: 5px
+}
+
+.BookOverview__title {
+    margin: 10px 0;
+}

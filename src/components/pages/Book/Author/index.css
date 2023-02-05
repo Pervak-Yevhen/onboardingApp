@@ -1,0 +1,29 @@
+.BookAuthor {
+    display: flex;
+    margin-bottom: 25px;
+    gap: 15px;
+}
+
+.BookAuthor__image {
+    display: flex;
+}
+
+.BookAuthor__image-img {
+    margin: auto;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.BookAuthor__data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.BookAuthor__data-title {
+    font: var(--font-b1);
+}
+
+.BookAuthor__data-link {
+    display: block;
+}

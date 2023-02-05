@@ -1,0 +1,21 @@
+.Loader--big {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Loader__icon {
+    animation: rotate-loader 1s linear infinite;
+}
+
+@keyframes rotate-loader {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}

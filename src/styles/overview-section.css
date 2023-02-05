@@ -1,0 +1,16 @@
+.BaseOverview {
+    display: flex;
+    justify-content: space-between;
+}
+
+.BaseOverview__description {
+    width: 100%;
+}
+
+.BaseOverview__img {
+    margin-right: 10px;
+}
+
+.BaseOverview + .BaseOverview {
+    margin-top: 20px;
+}

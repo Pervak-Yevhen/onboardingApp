@@ -1,0 +1,30 @@
+.BookPreview {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.BookPreview__img {
+    object-fit: cover;
+}
+
+.BookPreview__button {
+    overflow: hidden;
+    height: 0;
+    border-top: 2px solid var(--cl-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: height .2s ease-in-out;
+    background-color: var(--cl-black);
+    color: var(--cl-white);
+    cursor: pointer;
+}
+
+.BookPreview:hover .BookPreview__button {
+    height: 40px;
+}

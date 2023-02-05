@@ -1,0 +1,25 @@
+.BooksListItem {
+    display: flex;
+    cursor: pointer;
+    height: 100%;
+}
+
+.BooksListItem__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: min-content;
+}
+
+.BooksListItem__container-img {
+    margin: auto;
+}
+
+.BooksListItem__container-caption {
+    font: var(--font-b1);
+    text-align: center;
+    white-space: break-spaces;
+    margin-top: 12px;
+}

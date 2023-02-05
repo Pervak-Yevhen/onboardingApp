@@ -1,0 +1,9 @@
+.Layout__body {
+    overflow: auto;
+}
+
+.Layout__body-container {
+    max-width: 900px;
+    margin: auto;
+    padding-bottom: 35px;
+}

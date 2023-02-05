@@ -1,0 +1,10 @@
+.BookRelated {
+    display: flex;
+    flex-direction: column;
+}
+
+.BookRelated__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

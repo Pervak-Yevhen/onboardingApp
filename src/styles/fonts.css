@@ -5,6 +5,7 @@
   --font-h1:                600 36px/42px var(--fontFamily);
   --font-h2:                600 20px/23px var(--fontFamily);
   --font-h3:                500 18px/23px var(--fontFamily);
+  --font-h4:                500 16px/23px var(--fontFamily);
   --font-b1:                500 16px/22px var(--fontFamily);
   --font-b2:                400 16px/22px var(--fontFamily);
   --font-b2-link:           600 16px/22px var(--fontFamily);
@@ -18,6 +19,23 @@
   --font-link:              600 1em       var(--fontFamily);
   --font-context:           500 9px/11px  var(--fontFamily);
 }
+
+h1 {
+  font: var(--font-h1);
+}
+
+h2 {
+  font: var(--font-h2);
+}
+
+h3 {
+  font: var(--font-h3);
+}
+
+h4 {
+  font: var(--font-h4);
+}
+
 
 @font-face {
   font-family: 'Common Sans';

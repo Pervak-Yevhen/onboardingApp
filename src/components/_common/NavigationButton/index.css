@@ -1,0 +1,10 @@
+.NavigationButton {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.NavigationButton--disabled {
+    color: var(--cl-grey-1);
+}

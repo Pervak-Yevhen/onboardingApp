@@ -1,0 +1,7 @@
+.Header {
+    background-color: var(--cl-grey-1);
+    height: 65px;
+    color: var(--cl-white);
+    font: var(--font-h1);
+    padding: var(--layout-margin);
+}

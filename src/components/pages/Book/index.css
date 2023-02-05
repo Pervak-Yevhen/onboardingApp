@@ -1,0 +1,47 @@
+.Book {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Book__backButton {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.Book__title {
+    display: flex;
+    justify-content: center;
+}
+
+.Book__content {
+    display: flex;
+    gap: 20px;
+}
+
+.Book__content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.Book__content-container-img {
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.Book__content-info {
+    padding: 20px 0;
+}
+
+.Book__content-info-book {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.Book__content-info > div {
+    margin-bottom: 25px;
+}
