@@ -1,0 +1,76 @@
+:root {
+  --fontFamily: 'Common Sans', Arial, sans-serif;
+
+  --font-c1:                500 48px/54px var(--fontFamily);
+  --font-h1:                600 36px/42px var(--fontFamily);
+  --font-h2:                600 20px/23px var(--fontFamily);
+  --font-h3:                500 18px/23px var(--fontFamily);
+  --font-b1:                500 16px/22px var(--fontFamily);
+  --font-b2:                400 16px/22px var(--fontFamily);
+  --font-b2-link:           600 16px/22px var(--fontFamily);
+  --font-b3:                400 12px/14px var(--fontFamily);
+  --font-b4:                500 12px/14px var(--fontFamily);
+  --font-b5-medium:         500 14px/16px var(--fontFamily);
+  --font-b5-medium-link:    500 14px/20px var(--fontFamily);
+  --font-b5-regular:        400 14px/19px var(--fontFamily);
+  --font-ts:                600 12px/14px var(--fontFamily);
+  --font-button:            600 14px/22px var(--fontFamily);
+  --font-link:              600 1em       var(--fontFamily);
+  --font-context:           500 9px/11px  var(--fontFamily);
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/extralight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/demibold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Common Sans';
+  src: url('./fonts/black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
